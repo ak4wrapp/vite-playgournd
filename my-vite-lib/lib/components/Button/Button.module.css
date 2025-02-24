@@ -1,0 +1,34 @@
+:root {
+  --button-bg-color: #2396d8;
+  --button-text-color: white;
+  --button-hover-bg-color: #4ec7a9;
+  --button-hover-text-color: black;
+}
+
+[data-theme="dark"] {
+  --button-bg-color: #1a1a1a;
+  --button-text-color: white;
+  --button-hover-bg-color: #333333;
+  --button-hover-text-color: #ffffff;
+}
+
+[data-theme="light"] {
+  --button-bg-color: #2396d8;
+  --button-text-color: white;
+  --button-hover-bg-color: #4ec7a9;
+  --button-hover-text-color: black;
+}
+
+.myButton {
+  padding: 10px 20px;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.myButton:hover {
+  background-color: var(--button-hover-bg-color);
+  color: var(--button-hover-text-color);
+}

@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "allowImportingTsExtensions": false,
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationDir": "./dist",
+    "skipLibCheck": true,
+    "noEmit": false,
+    "typeRoots": ["./dist/index.d.ts"]
+  },
+  "include": ["lib"]
+}

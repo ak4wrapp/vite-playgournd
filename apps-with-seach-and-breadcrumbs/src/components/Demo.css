@@ -1,0 +1,18 @@
+.demo-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.demo-section {
+  margin-bottom: 20px;
+}
+
+.demo-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.demo-section button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
